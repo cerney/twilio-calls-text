@@ -1,20 +1,31 @@
-# Project Title
+# Click-to-Call fro Twilio
 
 This plugin enables your web visitors to interact with your Twilio endpoint numbers directly over the phone, SMS/MMS and FAX using simple shortcodes.
 
-## Getting Started
+## Description
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This plugin enables your web visitors to interact with your https://twilio.com endpoint numbers directly over the phone, SMS/MMS and FAX using simple shortcodes.
 
-### Prerequisites
+In order to get Click-to-Call for Twilio to work, you need to add your Twilio ACCOUNT SID and AUTH TOKEN. Basically these are the keys that will grant plugin access to your Twilio Cloud Infrastructure and will be able to initiate actions.
 
-What things you need to install the software and how to install them
+If you don’t have a Twilio account don’t worry, setting up an account is very simple and you can get your trial credentials in a matter of seconds. You can find a very comprehensive video tutorial [here](https://twilio.dasweb.ca/general-settings/).
+
+<h3>Obtaining the Twilio SID and AUTH tokens</h3>
+
+After you have your Twilio account set up navigate to your main [Twilio Dashboard](https://www.twilio.com/console) and copy your credentials into the general settings of the plugin.
+
+<h3>Adding a Click-to-Call shortcode</h3>
+
+To add a shortcode of your Click-to-Call button simply add the following to any part of your WordPress page or visual editor:
 
 ```
-Give examples
+[twtcall label='Click To Call' number='+1501222333']
 ```
+Notice that by default the label for the button is ‘Click to Call’ which you can change to whatever is the best for you. The second part of the shortcode is the default Voice number that you set up in the Settings page. You can overwrite it with another Voice capable number that you have in your Twilio account.
 
-### Installing
+
+
+## Installation
 
 <h3>Using the WordPress dashboard</h3>
 
@@ -34,58 +45,27 @@ Give examples
 
 That’s it! Click-to-Call for Twilio is now installed and running on your WordPress site. To get started, you may now follow our guide on setting up Click-to-Call for Twilio.
 
-End with an example of getting some data out of the system or using it for a little demo
+## Demo
 
-## Running the tests
+You can find more in the [Documentation](https://twilio.dasweb.ca/documentation) section on our website and you can also test the [Demo](https://twilio.dasweb.ca/click-to-call-for-wordpress/) of the Click-to-Call functionality.
 
-Explain how to run the automated tests for this system
+### PRO version
 
-### Break down into end to end tests
+[The Pro Version](https://twilio.dasweb.ca/shop/twilio-wordpress-tools-pro/) offers you a full integration of the SMS/MMS and Fax options and offers you more options, customization and 6 months of free support.
 
-Explain what these tests test and why
+* Click-to-Call feature – Direct contact with your website visitors
+* SMS/MMS functionality – Capture visitors’ phone numbers and send marketing/contact info
+* vCards sent to visitors – Send visitors your contact information in a phone-ready format
+* Fax outbound feature – Use it internally as a virtual fax machine to send documents
+* Custom Voice Message – Write your own welcome message when placing click-to-call actions
+* Custom Countries Flags – Select the countries you want to be visible in the input field
+* WPMU/Translations – Ability to translate the plugin strings in different languages
+* 6 months Free Support – Include installation and technical support
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Dasweb** - *Initial work* - [Dasweb Inc.](https://dasweb.ca)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
