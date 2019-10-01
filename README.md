@@ -1,6 +1,5 @@
 # Click-to-Call fro Twilio
 
-This plugin enables your web visitors to interact with your Twilio endpoint numbers directly over the phone, SMS/MMS and FAX using simple shortcodes.
 
 ## Description
 
